@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    
+}
+.header h3{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.nav{
+    margin-left: 72%;
+
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+/** Landing Page **/
+
+.firstpart{
+    background-image: url("https://staticg.sportskeeda.com/editor/2023/04/63d73-16823971700459-1920.jpg");
+    height: 603px;
+    padding-top: 360px;
+}
+.firstpart h1, h2{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+span{
+    color: orange;
+}
+.googledownload{
+    height: 150px;
+    width: 300px;
+    margin-left: 42%;
+}
+
+.secondpart{
+    background-image: url("https://cdn-www.bluestacks.com/bs-images/Wallpaper_farlight-84.jpg");
+    height: 800px;
+    padding-top: 130px;
+}
+.secondpart h2, p{
+    display:inline-block;
+    font-size: 100px;
+    padding-left: 150px;
+}
+
+#feature-p{
+    color: white;
+    font-size: 25px;
+    padding-right: 840px;
+}
+
+.thirdpart{
+    background-image: url("https://cdn.mos.cms.futurecdn.net/Guz5XpiUCd3e9GJ6kiNRdR.jpg");
+    height: 970px;
+}
+.thirdpart h2{
+    font-size: 70px;
+    padding-top: 10%;
+}
+#about-p{
+    font-size: 25px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: white;
+}
+.thirdpart a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.knowmore{
+    background-color: orange;
+    width: 190px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-top: 10px;
+    
+}
+
+.fourthpart{
+    background-image: url("https://d1lss44hh2trtw.cloudfront.net/assets/editorial/2021/05/farlight-enemy.jpg");
+    height: 975px;
+}
+.fourthpart h2{
+    font-size: 70px;
+    padding-top: 100px;
+}
+.project-box{
+    background-color: white;
+    height: 130px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.fourthpart h3, p{
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 600px);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+    padding-top: 80px;
+}
+.see-details{
+    text-align: center;
+    margin-top: 10px;
+}
+.see-details a{
+    text-decoration: none;
+    color: orange;
+}
+.fifthpart{
+    background-color: rgb(218, 201, 201);
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
+.fifthpart p{
+    padding-left: 0;
+    margin-bottom: 15px;
+
+}
+.contact-btn{
+    height: 50px;
+    background-color: orange;
+    width: 70px;
+    margin-left: 48%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 30px;
+    padding-top: 15px;
+    
+}
+.contact-btn a{
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+.footer{
+    background-color: orange;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.footer p{
+    padding-left: 50px;
+    font-size: 15px;
+    margin-top: 0;
+    padding-top: 10px;
+    padding: 0;
+}
+
+/** About Page**/
+
+.abt-firstpart{
+    height: 965px;
+    background-color: gray;
+    padding-top: 60px;
+}
+.abt-firstpart h2, p{
+    font-size: 30px;
+    padding-left: 0;
+}
